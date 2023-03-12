@@ -1,0 +1,64 @@
+
+body {
+    margin-top: 0;
+}
+
+.topnav {
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    box-shadow: 0px 10px 38px -20px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+#userinfo {
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    margin-right: 15%;
+}
+
+img[src^="logo-title"] {
+    height: 70%;
+}
+
+img[src^="placeholder"] {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12;
+}
